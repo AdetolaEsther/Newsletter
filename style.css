@@ -1,0 +1,160 @@
+*{
+    font-family: 'Roboto';
+    
+    
+}
+body{
+   
+    display: flex;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.content h1{
+    color: rgb(48, 48, 87);
+    font-size: 50px;
+}
+.content p{
+    color:rgb(48, 48, 87) ;
+    font-size: 25x;
+}
+
+.error{
+    color: #f90404; 
+    display: none; 
+}
+
+.validEmail{
+    display: flex;
+    justify-content:space-between;
+    max-width: 400px;
+}
+.check-list{
+    color:rgb(48, 48, 87) ;
+    font-size: 20px; 
+}
+.mail p{
+    font-size: 15px;
+}
+.mail input{
+    border-radius: 15px;
+   
+    height: 40px;
+}
+.btn{
+    background-color: tomato;
+    color: #fff;
+    
+    height: 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    background-color:rgb(48, 48, 87) ;
+    color: #fff;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.general{
+    background-color:beige;
+    border-radius: 15px;
+    height: 50dvh;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content{
+    flex: 2;
+    height: 100%;
+}
+.image{
+    flex: 1;
+    justify-content: center;
+    border: 15px; 
+    align-items: center;
+    margin: auto;
+    right: 0;
+    height: 100%;
+}
+.image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.errorColor{
+    border:1px solid red;
+    color: red;
+    background-color: rgb(238, 203, 203);
+}
+
+@media (max-width: 500px) {
+    body{
+   
+        display: block;
+      
+        
+    }
+    .content{
+        flex:none;
+        width: 100%;
+    }
+    .content h1{
+        font-size: 20px;
+        }
+        .content p{
+          font-size: 10px;
+        }
+        .validEmail{
+            font-size: 10px;
+        }
+        
+        
+    .general{
+   border-radius: 5px;
+    height: 100dvh;
+    flex-direction: column-reverse;
+    position: relative;
+
+    background-color: #fff;
+
+}
+
+.image{
+    flex: 1;
+    justify-content: center;
+    border: 0; 
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    
+}
+
+
+.mail input[type='email']{
+    height: 10px;
+    padding: 10px;
+    
+    border-radius: 5px;
+}
+.btn{
+    
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(48, 48, 87);
+    border-radius: 5px;
+}
+
+}

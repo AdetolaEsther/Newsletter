@@ -1,0 +1,40 @@
+
+.btn{
+    background-color: rgb(48, 48, 87);
+    color: #fff;
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color:tomato;
+}
+
+.container{
+    background-color:#fff;
+    border-radius: 25px;
+    height: 50dvh;
+    width: 60%;
+    padding: 50px;
+    margin: auto;
+    max-width: 400px;
+
+
+}
+.container p{
+    font-size: 20px;
+    color: rgb(48, 48, 87);
+}
+.container h1{
+    font-size: 40px;
+    color: rgb(48, 48, 87);
+}
+.general{
+    background-color: rgb(48, 48, 87);;
+    height:100dvh ;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+}
